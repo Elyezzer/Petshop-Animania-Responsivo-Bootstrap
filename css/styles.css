@@ -6,7 +6,7 @@
 
 @media(max-width: 800px){
 
-    header{
+    /* header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -17,7 +17,7 @@
         max-height: 15vh;
         min-width: 100%;
     
-    }
+    } */
 
     .logo{
         max-width: 25%;
@@ -42,7 +42,7 @@
 }
 
 @media(max-width: 425px){
-
+/* 
     header{
         display: flex;
         flex-direction: column;
@@ -53,8 +53,8 @@
         background-color: #4fbffe;
         max-height: 15vh;
         min-width: 100%;
-    
-    }
+
+    } */
 
     .logo{
         max-width: 50%;
@@ -92,7 +92,7 @@
 
 @media(max-width: 281px){
 
-    header{
+    /* header{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -103,7 +103,7 @@
         max-height: 15vh;
         min-width: 100%;
     
-    }
+    } */
 
     .logo{
         max-width: 50%;
@@ -130,7 +130,7 @@
 
 }
 
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,6 +140,10 @@ header{
     max-height: 20vh;
     min-width: 100%;
 
+} */
+
+.nav{
+    background-color: #4fbffe;
 }
 
 .grid{
@@ -159,6 +163,8 @@ a{
 h1{
     font-family: 'Work Sans', sans-serif;
     font-size: 2vw;
+    z-index: 10000;
+    
 }
 
 h2{
@@ -233,15 +239,14 @@ h2{
 .icones{
     display: flex;
     justify-content: space-around;
-    z-index: 10000;
 
 }
 
 .icones img{
     width: 14%;
     max-height: 100%;
+    z-index: 10000;
     
-
 }
 
 .texto_icones{
