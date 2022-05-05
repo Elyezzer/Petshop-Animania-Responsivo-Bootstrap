@@ -6,7 +6,7 @@
 
 @media(max-width: 800px){
 
-    header{
+    /* header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -17,7 +17,7 @@
         max-height: 15vh;
         min-width: 100%;
     
-    }
+    } */
 
     .logo{
         max-width: 25%;
@@ -39,11 +39,16 @@
     
     }
 
+    .logo_do_fundo{
+        min-width: 40%;
+    
+    }
+
 }
 
 @media(max-width: 425px){
 
-    header{
+    /* header{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -54,7 +59,7 @@
         max-height: 15vh;
         min-width: 100%;
     
-    }
+    } */
 
     .logo{
         max-width: 50%;
@@ -86,13 +91,21 @@
         order: 1;
         min-width: 50vw;
     }
+
+    .logo_do_fundo{
+        display: flex;
+        display: grid;
+        margin-top: 1vh;
+        top: -50%;
+        min-width: 50%;
     
+    }
 
 }
 
 @media(max-width: 281px){
 
-    header{
+    /* header{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -103,7 +116,7 @@
         max-height: 15vh;
         min-width: 100%;
     
-    }
+    } */
 
     .logo{
         max-width: 50%;
@@ -128,9 +141,18 @@
     
     }
 
+    .logo_do_fundo{
+        display: flex;
+        display: grid;
+        margin-top: 1vh;
+        top: -50%;
+        min-width: 50%;
+    
+    }
+
 }
 
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,7 +162,7 @@ header{
     max-height: 20vh;
     min-width: 100%;
 
-}
+} */
 
 a{
     text-decoration: none;
@@ -203,6 +225,10 @@ h2{
 
 }
 
+.nav{
+    background-color: #4fbffe;
+}
+
 .grid{
     margin-top: 3%;
     display: grid;
@@ -213,16 +239,20 @@ h2{
     gap: 2%;
 }
 
-.texto1{
-    margin-top: 3vh;
+ .texto1{
+    margin-top: 1vh;
     font-size: 3vw;
     font-family: 'Work Sans', sans-serif;
+    background-color: blue;
+    z-index: 10000;
 }
 
 .texto2{
     margin-top: 3vh;
     font-size: 3vw;
     font-family: 'Work Sans', sans-serif;
+    background-color: green;
+    z-index: 10000;
 }
 
 .telefone{
@@ -233,25 +263,30 @@ h2{
     justify-content: center;
     font-size: 3vw;
     font-family: 'Work Sans', sans-serif;
+    margin-top: -50%;
 }
 
 .telefone img{
     width: 10%;
     z-index: 10000;
     
-}
+} 
 
 .cachorro_e_gato{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: red;
+
 }
 
 .cachorro_e_gato img{
     width: 70%;
     z-index: 10000;
-
+    margin-top: -80%;
+   
 }
+
 
 .espaco_azul{
     grid-column: 1/3;
