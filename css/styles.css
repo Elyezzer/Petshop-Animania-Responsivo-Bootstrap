@@ -130,17 +130,14 @@
 
 }
 
-/* header{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    padding: 50px;
-    background-color: #4fbffe;
-    max-height: 20vh;
-    min-width: 100%;
+    
 
-} */
+
+}
 
 .nav{
     background-color: #4fbffe;
@@ -150,10 +147,6 @@
     max-height: 80vh;
     display: grid;
     grid-template-rows: 1fr;
-}
-
-a{
-    text-decoration: none;
 }
 
 .menu a{
