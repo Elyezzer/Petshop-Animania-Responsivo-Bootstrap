@@ -39,10 +39,10 @@
     
     }
 
-    .logo_do_fundo{
+    /* .logo_do_fundo{
         min-width: 40%;
     
-    }
+    } */
 
 }
 
@@ -92,14 +92,14 @@
         min-width: 50vw;
     }
 
-    .logo_do_fundo{
+    /* .logo_do_fundo{
         display: flex;
         display: grid;
         margin-top: 1vh;
         top: -50%;
         min-width: 50%;
     
-    }
+    } */
 
 }
 
@@ -141,14 +141,14 @@
     
     }
 
-    .logo_do_fundo{
+    /* .logo_do_fundo{
         display: flex;
         display: grid;
         margin-top: 1vh;
         top: -50%;
         min-width: 50%;
     
-    }
+    } */
 
 }
 
@@ -243,7 +243,6 @@ h2{
     margin-top: 1vh;
     font-size: 3vw;
     font-family: 'Work Sans', sans-serif;
-    background-color: blue;
     z-index: 10000;
 }
 
@@ -251,7 +250,6 @@ h2{
     margin-top: 3vh;
     font-size: 3vw;
     font-family: 'Work Sans', sans-serif;
-    background-color: green;
     z-index: 10000;
 }
 
@@ -276,14 +274,14 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+   
 
 }
 
 .cachorro_e_gato img{
     width: 70%;
     z-index: 10000;
-    margin-top: -80%;
+    margin-top: -1%;
    
 }
 
@@ -316,3 +314,4 @@ h2{
     width: 0.2%;
     left: 50%;
 }
+
