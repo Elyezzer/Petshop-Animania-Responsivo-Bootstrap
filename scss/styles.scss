@@ -15,7 +15,6 @@ $font-size: 2vw;
     box-sizing: border-box;
     background-color: #4fbffe;
     padding: 50px;
-    background-color: $header;
     max-height: 15vh;
     min-width: 100%;
 
@@ -23,43 +22,38 @@ $font-size: 2vw;
 
 @media(max-width: 800px){
 
-    header{
-        @include para_header;
+    // header{
+    //     @include para_header;
+    // } 
 
-        .logo{
-            max-width: 25%;
-        }
+    .logo{
+        max-width: 25%;
+    }
 
-        .logo img{
-            min-width: 150%;
-        
-        }
+    .logo img{
+        min-width: 150%;
+    
+    }
 
-        .redes_sociais{
-            min-width: 20%;
-        
-        }
+    .redes_sociais{
+        min-width: 20%;
+    
+    }
 
-        .redes_sociais img{
-            width: 100%;
-            padding: 3px;
-        
-        }
-
-        .logo_do_fundo{
-            min-width: 40%;
-        
-        }
-    } 
+    .redes_sociais img{
+        width: 100%;
+        padding: 3px;
+    
+    }
 }
 
 @media(max-width: 800px){
 
-    header{
-      @include para_header;
+//     header{
+//       @include para_header;
 
    
-   } 
+//    } 
 
    .logo{
        max-width: 25%;
@@ -81,22 +75,18 @@ $font-size: 2vw;
    
    }
 
-   .logo_do_fundo{
-       min-width: 40%;
    
-   }
-
 }
 
 
 
 @media(max-width: 400px){
 
-    header{
-      @include para_header;
+//     header{
+//       @include para_header;
 
    
-   } 
+//    } 
 
    .logo{
        max-width: 50%;
@@ -129,24 +119,16 @@ $font-size: 2vw;
        min-width: 50vw;
    }
 
-   .logo_do_fundo{
-       display: flex;
-       display: grid;
-       margin-top: 1vh;
-       top: -50%;
-       min-width: 50%;
-   
-   }
-
+ 
 }
 
 @media(max-width: 281px){
 
-    header{
-      @include para_header;
+//     header{
+//       @include para_header;
 
    
-   } 
+//    } 
 
    .logo{
        max-width: 50%;
@@ -171,22 +153,14 @@ $font-size: 2vw;
    
    }
 
-   .logo_do_fundo{
-       display: flex;
-       display: grid;
-       margin-top: 1vh;
-       top: -50%;
-       min-width: 50%;
    
-   }
-
 }
 
-header{
+// header{
    
-   @include para_header($para_header:  max-height 15vh)
+//    @include para_header($para_header:  max-height 15vh)
 
-}
+// }
 
 a{
    text-decoration: none;
@@ -267,7 +241,6 @@ h2{
    margin-top: vh;
    font-size: 3vw;
    font-family:$font-family;
-   background-color: blue;
    z-index: 10000;
 }
 
@@ -275,7 +248,6 @@ h2{
    margin-top: 3vh;
    font-size: 3vw;
    font-family:$font-family;
-   background-color: green;
    z-index: 10000;
 }
 
@@ -300,7 +272,7 @@ h2{
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: red;
+
 
 }
 
@@ -311,16 +283,34 @@ h2{
   
 }
 
-
 .espaco_azul{
-   grid-column: 1/3;
-   margin-top: -3vh;
+    display: flex;
+    min-height: 25vh;
+    min-width: 100%;
+    width: 100%;
+    margin-top: -3%;
+    background-color: #4fbffe;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2%;
+    box-sizing: border-box;
+    
 }
 
+
 .onda{
-   grid-column: 1/3;
-   z-index: 1;
-   margin-top: 1vh;
+    
+    max-width: 100%;
+    width:  100%;
+    margin-top: 4%;
+    
+}
+
+.onda img{
+    
+    width: 100%;
+    position: relative;
+    
 }
 
 .barra2{
@@ -340,3 +330,20 @@ h2{
    width: 0.2%;
    left: 50%;
 }
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+ .map-container iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+    }
+
+  }
+  
